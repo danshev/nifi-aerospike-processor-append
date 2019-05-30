@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/aerospike-listappend.iml" filepath="$PROJECT_DIR$/aerospike-listappend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nifi-listappend-nar/nifi-listappend-nar.iml" filepath="$PROJECT_DIR$/nifi-listappend-nar/nifi-listappend-nar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nifi-listappend-processors/nifi-listappend-processors.iml" filepath="$PROJECT_DIR$/nifi-listappend-processors/nifi-listappend-processors.iml" />
+    </modules>
+  </component>
+</project>
