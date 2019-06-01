@@ -12,6 +12,8 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="aerospike-listappend" target="1.8" />
+      <module name="nifi-aerospike-connection" target="1.8" />
+      <module name="nifi-aerospike-connection-api" target="1.8" />
       <module name="nifi-listappend-nar" target="1.8" />
       <module name="nifi-listappend-processors" target="1.8" />
     </bytecodeTargetLevel>

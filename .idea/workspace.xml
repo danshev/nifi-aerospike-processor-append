@@ -1,11 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="4" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c22c4bae-ffd9-422b-b09a-4ca267bdf999" name="Default Changelist" comment="" />
+    <list default="true" id="c22c4bae-ffd9-422b-b09a-4ca267bdf999" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aerospike_aerospike_client_4_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_danshev_nifi_aerospike_connection_1_0_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_danshev_nifi_aerospike_connection_api_1_0_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_27_1_jre.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_nifi_nifi_processor_utils_1_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_2_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_gnu_gnu_crypto_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20180813.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_luaj_luaj_jse_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mindrot_jbcrypt_0_3m.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-aerospike-connection-api/nifi-aerospike-connection-api.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-aerospike-connection-api/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-aerospike-connection-api/src/main/java/com/danshev/aerospike_connection/AerospikeConnectionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-aerospike-connection-api/target/.plxarc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-aerospike-connection-api/target/classes/META-INF/DEPENDENCIES" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-aerospike-connection-api/target/classes/META-INF/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-aerospike-connection-api/target/classes/META-INF/NOTICE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-aerospike-connection-api/target/classes/com/danshev/aerospike_connection/AerospikeConnectionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-aerospike-connection-api/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-aerospike-connection-api/target/maven-shared-archive-resources/META-INF/DEPENDENCIES" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-aerospike-connection-api/target/maven-shared-archive-resources/META-INF/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-aerospike-connection-api/target/maven-shared-archive-resources/META-INF/NOTICE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-aerospike-connection-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-aerospike-connection-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-aerospike-connection-api/target/nifi-aerospike-connection-api-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-aerospike-connection-api/target/test-classes/META-INF/DEPENDENCIES" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-aerospike-connection-api/target/test-classes/META-INF/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-aerospike-connection-api/target/test-classes/META-INF/NOTICE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-aerospike-connection/nifi-aerospike-connection.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-aerospike-connection/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-aerospike-connection/src/main/java/com/danshev/aerospike_connection/AerospikeConnectionControllerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-aerospike-connection/src/main/resources/META-INF/services/org.apache.nifi.controller.ControllerService" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-aerospike-connection/src/test/java/com/danshev/aerospike_connection/TestProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-aerospike-connection/src/test/java/com/danshev/aerospike_connection/TestStandardMyService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-aerospike-connection/target/.plxarc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-aerospike-connection/target/classes/META-INF/DEPENDENCIES" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-aerospike-connection/target/classes/META-INF/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-aerospike-connection/target/classes/META-INF/NOTICE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-aerospike-connection/target/classes/META-INF/services/org.apache.nifi.controller.ControllerService" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-aerospike-connection/target/classes/com/danshev/aerospike_connection/AerospikeConnectionControllerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-aerospike-connection/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-aerospike-connection/target/maven-shared-archive-resources/META-INF/DEPENDENCIES" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-aerospike-connection/target/maven-shared-archive-resources/META-INF/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-aerospike-connection/target/maven-shared-archive-resources/META-INF/NOTICE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-aerospike-connection/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-aerospike-connection/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-aerospike-connection/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-aerospike-connection/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-aerospike-connection/target/maven-status/maven-compiler-plugin/testCompile/groovy-tests/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-aerospike-connection/target/maven-status/maven-compiler-plugin/testCompile/groovy-tests/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-aerospike-connection/target/nifi-aerospike-connection-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-aerospike-connection/target/surefire-reports/TEST-com.danshev.aerospike_connection.TestStandardMyService.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-aerospike-connection/target/surefire-reports/com.danshev.aerospike_connection.TestStandardMyService-output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-aerospike-connection/target/surefire-reports/com.danshev.aerospike_connection.TestStandardMyService.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-aerospike-connection/target/test-classes/META-INF/DEPENDENCIES" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-aerospike-connection/target/test-classes/META-INF/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-aerospike-connection/target/test-classes/META-INF/NOTICE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-aerospike-connection/target/test-classes/com/danshev/aerospike_connection/TestProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-aerospike-connection/target/test-classes/com/danshev/aerospike_connection/TestStandardMyService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-listappend-nar/nifi-listappend-nar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-listappend-nar/nifi-listappend-nar.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-listappend-nar/target/classes/META-INF/DEPENDENCIES" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-listappend-nar/target/classes/META-INF/DEPENDENCIES" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-listappend-nar/target/classes/META-INF/bundled-dependencies/nifi-aerospike-connection-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-listappend-nar/target/classes/META-INF/bundled-dependencies/nifi-aerospike-connection-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-listappend-nar/target/classes/META-INF/bundled-dependencies/nifi-aerospike-connection-api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-listappend-nar/target/classes/META-INF/bundled-dependencies/nifi-aerospike-connection-api-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-listappend-nar/target/classes/META-INF/bundled-dependencies/nifi-listappend-processors-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-listappend-nar/target/classes/META-INF/bundled-dependencies/nifi-listappend-processors-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-listappend-nar/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-listappend-nar/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-listappend-nar/target/maven-shared-archive-resources/META-INF/DEPENDENCIES" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-listappend-nar/target/maven-shared-archive-resources/META-INF/DEPENDENCIES" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-listappend-nar/target/nifi-listappend-nar-1.0-SNAPSHOT.nar" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-listappend-nar/target/nifi-listappend-nar-1.0-SNAPSHOT.nar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-listappend-nar/target/test-classes/META-INF/DEPENDENCIES" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-listappend-nar/target/test-classes/META-INF/DEPENDENCIES" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-listappend-processors/nifi-listappend-processors.iml" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-listappend-processors/nifi-listappend-processors.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-listappend-processors/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-listappend-processors/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-listappend-processors/src/main/java/com/danshev/processors/listappend/ListAppend.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-listappend-processors/src/main/resources/META-INF/services/org.apache.nifi.processor.Processor" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-listappend-processors/src/main/resources/META-INF/services/org.apache.nifi.processor.Processor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-listappend-processors/src/test/java/com/danshev/processors/listappend/ListAppendTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-listappend-processors/src/test/java/com/danshev/processors/listappend/ListAppendTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-listappend-processors/target/classes/META-INF/DEPENDENCIES" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-listappend-processors/target/classes/META-INF/DEPENDENCIES" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-listappend-processors/target/classes/META-INF/services/org.apache.nifi.processor.Processor" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-listappend-processors/target/classes/META-INF/services/org.apache.nifi.processor.Processor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-listappend-processors/target/classes/com/danshev/processors/listappend/ListAppend.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-listappend-processors/target/maven-shared-archive-resources/META-INF/DEPENDENCIES" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-listappend-processors/target/maven-shared-archive-resources/META-INF/DEPENDENCIES" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-listappend-processors/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-listappend-processors/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-listappend-processors/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-listappend-processors/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-listappend-processors/target/nifi-listappend-processors-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-listappend-processors/target/nifi-listappend-processors-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-listappend-processors/target/surefire-reports/TEST-com.danshev.processors.listappend.ListAppendTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-listappend-processors/target/surefire-reports/TEST-com.danshev.processors.listappend.ListAppendTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-listappend-processors/target/surefire-reports/com.danshev.processors.listappend.ListAppendTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-listappend-processors/target/surefire-reports/com.danshev.processors.listappend.ListAppendTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-listappend-processors/target/test-classes/META-INF/DEPENDENCIES" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-listappend-processors/target/test-classes/META-INF/DEPENDENCIES" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-listappend-processors/target/test-classes/com/danshev/processors/listappend/ListAppendTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-listappend-processors/target/test-classes/com/danshev/processors/listappend/ListAppendTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/nifi-listappend-nar/target/" />
     <ignored path="$PROJECT_DIR$/nifi-listappend-processors/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/nifi-aerospike-connection/target/" />
+    <ignored path="$PROJECT_DIR$/nifi-aerospike-connection-api/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +119,7 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -25,34 +127,25 @@
         <entry file="file://$PROJECT_DIR$/nifi-listappend-processors/src/main/resources/META-INF/services/org.apache.nifi.processor.Processor">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+              <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nifi-listappend-processors/src/main/java/com/danshev/processors/listappend/AerospikeListAppend.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="331">
+              <caret line="140" column="63" selection-start-line="140" selection-start-column="63" selection-end-line="140" selection-end-column="63" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/nifi-listappend-processors/src/main/java/com/danshev/processors/listappend/ListAppend.java">
+        <entry file="file://$PROJECT_DIR$/nifi-listappend-processors/src/test/java/com/danshev/processors/listappend/ListAppendTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-608">
-              <caret line="107" column="32" selection-start-line="107" selection-start-column="32" selection-end-line="107" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nifi-aerospike-connection-api/src/main/java/com/danshev/aerospike_connection/AerospikeConnectionService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="32" column="71" selection-start-line="32" selection-start-column="71" selection-end-line="32" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nifi-aerospike-connection/src/main/java/com/danshev/aerospike_connection/AerospikeConnectionControllerService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="209" selection-start-line="209" selection-end-line="209" />
+            <state relative-caret-position="210">
+              <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -64,34 +157,44 @@
       <find>import java.io.ByteArrayOutputStream;</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/nifi-listappend-processors/src/main/java/com/danshev/processors/listappend/MyProcessor.java" />
-        <option value="$PROJECT_DIR$/nifi-listappend-processors/src/main/resources/META-INF/services/org.apache.nifi.processor.Processor" />
+        <option value="$PROJECT_DIR$/nifi-listappend-processors/src/test/java/com/danshev/processors/listappend/MyProcessorTest.java" />
+        <option value="$PROJECT_DIR$/nifi-listappend-processors/pom.xml" />
+        <option value="$PROJECT_DIR$/nifi-aerospike-connection-api/src/main/java/com/danshev/aerospike_connection/AerospikeConnectionService.java" />
+        <option value="$PROJECT_DIR$/nifi-aerospike-connection/src/main/java/com/danshev/aerospike_connection/AerospikeConnectionControllerService.java" />
         <option value="$PROJECT_DIR$/nifi-aerospike-connection/pom.xml" />
         <option value="$PROJECT_DIR$/nifi-aerospike-connection-api/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/nifi-listappend-processors/src/test/java/com/danshev/processors/listappend/MyProcessorTest.java" />
-        <option value="$PROJECT_DIR$/nifi-listappend-processors/pom.xml" />
-        <option value="$PROJECT_DIR$/nifi-aerospike-connection/src/main/java/com/danshev/aerospike_connection/AerospikeConnectionControllerService.java" />
-        <option value="$PROJECT_DIR$/nifi-aerospike-connection-api/src/main/java/com/danshev/aerospike_connection/AerospikeConnectionService.java" />
         <option value="$PROJECT_DIR$/nifi-listappend-processors/src/main/java/com/danshev/processors/listappend/ListAppend.java" />
+        <option value="$PROJECT_DIR$/nifi-listappend-processors/src/main/resources/META-INF/services/org.apache.nifi.processor.Processor" />
+        <option value="$PROJECT_DIR$/nifi-listappend-processors/src/main/java/com/danshev/processors/listappend/AerospikeListAppend.java" />
+        <option value="$PROJECT_DIR$/nifi-listappend-processors/src/test/java/com/danshev/processors/listappend/ListAppendTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="715" />
+    <option name="height" value="709" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -102,81 +205,30 @@
             <path>
               <item name="aerospike-listappend" type="b2602c69:ProjectViewProjectNode" />
               <item name="aerospike-listappend" type="462c0819:PsiDirectoryNode" />
-              <item name="nifi-aerospike-connection" type="462c0819:PsiDirectoryNode" />
+              <item name="nifi-listappend-nar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="aerospike-listappend" type="b2602c69:ProjectViewProjectNode" />
               <item name="aerospike-listappend" type="462c0819:PsiDirectoryNode" />
-              <item name="nifi-aerospike-connection" type="462c0819:PsiDirectoryNode" />
+              <item name="nifi-listappend-processors" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aerospike-listappend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aerospike-listappend" type="462c0819:PsiDirectoryNode" />
+              <item name="nifi-listappend-processors" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="aerospike-listappend" type="b2602c69:ProjectViewProjectNode" />
               <item name="aerospike-listappend" type="462c0819:PsiDirectoryNode" />
-              <item name="nifi-aerospike-connection" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aerospike-listappend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aerospike-listappend" type="462c0819:PsiDirectoryNode" />
-              <item name="nifi-aerospike-connection" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aerospike-listappend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aerospike-listappend" type="462c0819:PsiDirectoryNode" />
-              <item name="nifi-aerospike-connection" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aerospike-listappend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aerospike-listappend" type="462c0819:PsiDirectoryNode" />
-              <item name="nifi-aerospike-connection" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="danshev" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aerospike-listappend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aerospike-listappend" type="462c0819:PsiDirectoryNode" />
-              <item name="nifi-aerospike-connection" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="danshev" type="462c0819:PsiDirectoryNode" />
-              <item name="aerospike_connection" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aerospike-listappend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aerospike-listappend" type="462c0819:PsiDirectoryNode" />
-              <item name="nifi-aerospike-connection-api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aerospike-listappend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aerospike-listappend" type="462c0819:PsiDirectoryNode" />
-              <item name="nifi-aerospike-connection-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aerospike-listappend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aerospike-listappend" type="462c0819:PsiDirectoryNode" />
-              <item name="nifi-aerospike-connection-api" type="462c0819:PsiDirectoryNode" />
+              <item name="nifi-listappend-processors" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="aerospike-listappend" type="b2602c69:ProjectViewProjectNode" />
               <item name="aerospike-listappend" type="462c0819:PsiDirectoryNode" />
-              <item name="nifi-aerospike-connection-api" type="462c0819:PsiDirectoryNode" />
+              <item name="nifi-listappend-processors" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -184,44 +236,68 @@
             <path>
               <item name="aerospike-listappend" type="b2602c69:ProjectViewProjectNode" />
               <item name="aerospike-listappend" type="462c0819:PsiDirectoryNode" />
-              <item name="nifi-aerospike-connection-api" type="462c0819:PsiDirectoryNode" />
+              <item name="nifi-listappend-processors" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="listappend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="aerospike-listappend" type="b2602c69:ProjectViewProjectNode" />
               <item name="aerospike-listappend" type="462c0819:PsiDirectoryNode" />
-              <item name="nifi-aerospike-connection-api" type="462c0819:PsiDirectoryNode" />
+              <item name="nifi-listappend-processors" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="danshev" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="aerospike-listappend" type="b2602c69:ProjectViewProjectNode" />
               <item name="aerospike-listappend" type="462c0819:PsiDirectoryNode" />
-              <item name="nifi-aerospike-connection-api" type="462c0819:PsiDirectoryNode" />
+              <item name="nifi-listappend-processors" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aerospike-listappend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aerospike-listappend" type="462c0819:PsiDirectoryNode" />
+              <item name="nifi-listappend-processors" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aerospike-listappend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aerospike-listappend" type="462c0819:PsiDirectoryNode" />
+              <item name="nifi-listappend-processors" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="danshev" type="462c0819:PsiDirectoryNode" />
-              <item name="aerospike_connection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aerospike-listappend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aerospike-listappend" type="462c0819:PsiDirectoryNode" />
+              <item name="nifi-listappend-processors" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="listappend" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
   </component>
   <component name="RunDashboard">
@@ -247,10 +323,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="715" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="709" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20436187" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30129242" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -265,6 +341,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection Results" order="10" weight="0.32905295" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -275,6 +352,37 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/nifi-listappend-processors/src/main/java/com/danshev/processors/listappend/MyProcessor.java" />
+    <entry file="file://$PROJECT_DIR$/nifi-listappend-processors/src/test/java/com/danshev/processors/listappend/MyProcessorTest.java" />
+    <entry file="file://$PROJECT_DIR$/aerospike-listappend.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/nifi/nifi-api/1.9.2/nifi-api-1.9.2.jar!/org/apache/nifi/processor/io/OutputStreamCallback.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nifi-aerospike-connection/src/main/resources/META-INF/services/org.apache.nifi.controller.ControllerService">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nifi-aerospike-connection/nifi-aerospike-connection.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nifi-aerospike-connection-api/src/main/java/com/danshev/aerospike_connection/AerospikeConnectionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nifi-aerospike-connection/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/nifi-aerospike-connection-api/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -282,63 +390,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nifi-listappend-processors/src/test/java/com/danshev/processors/listappend/MyProcessorTest.java" />
-    <entry file="file://$PROJECT_DIR$/aerospike-listappend.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nifi-listappend-processors/src/test/java/com/danshev/processors/listappend/ListAppendTest.java">
+    <entry file="file://$PROJECT_DIR$/nifi-aerospike-connection/src/main/java/com/danshev/aerospike_connection/AerospikeConnectionControllerService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        <state relative-caret-position="-1725">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nifi-listappend-nar/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-109" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nifi-listappend-processors/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="59" column="26" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="33" column="45" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
+        <state relative-caret-position="420">
+          <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nifi-aerospike-connection/pom.xml">
+    <entry file="file://$PROJECT_DIR$/nifi-listappend-processors/src/main/java/com/danshev/processors/listappend/ListAppend.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-129">
-          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nifi-listappend-processors/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="61" column="37" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="37" />
+        <state relative-caret-position="435">
+          <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nifi-listappend-processors/src/main/resources/META-INF/services/org.apache.nifi.processor.Processor">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nifi-aerospike-connection/src/main/java/com/danshev/aerospike_connection/AerospikeConnectionControllerService.java">
+    <entry file="file://$PROJECT_DIR$/nifi-listappend-processors/src/main/java/com/danshev/processors/listappend/AerospikeListAppend.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="209" selection-start-line="209" selection-end-line="209" />
+        <state relative-caret-position="331">
+          <caret line="140" column="63" selection-start-line="140" selection-start-column="63" selection-end-line="140" selection-end-column="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nifi-aerospike-connection-api/src/main/java/com/danshev/aerospike_connection/AerospikeConnectionService.java">
+    <entry file="file://$PROJECT_DIR$/nifi-listappend-processors/src/test/java/com/danshev/processors/listappend/ListAppendTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="32" column="71" selection-start-line="32" selection-start-column="71" selection-end-line="32" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nifi-listappend-processors/src/main/java/com/danshev/processors/listappend/ListAppend.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-608">
-          <caret line="107" column="32" selection-start-line="107" selection-start-column="32" selection-end-line="107" selection-end-column="32" />
+        <state relative-caret-position="210">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
         </state>
       </provider>
     </entry>

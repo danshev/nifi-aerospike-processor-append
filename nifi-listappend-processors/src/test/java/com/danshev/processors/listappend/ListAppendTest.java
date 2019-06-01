@@ -28,7 +28,7 @@ public class ListAppendTest {
 
     @Before
     public void init() {
-        testRunner = TestRunners.newTestRunner(ListAppend.class);
+        testRunner = TestRunners.newTestRunner(AerospikeListAppend.class);
     }
 
     @Test

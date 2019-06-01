@@ -30,8 +30,6 @@
     <modules>
         <module>nifi-listappend-processors</module>
         <module>nifi-listappend-nar</module>
-        <module>nifi-aerospike-connection</module>
-        <module>nifi-aerospike-connection-api</module>
     </modules>
 
 </project>
