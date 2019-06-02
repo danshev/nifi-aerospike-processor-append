@@ -30,6 +30,7 @@ import org.apache.nifi.annotation.lifecycle.OnScheduled;
 import org.apache.nifi.components.PropertyDescriptor;
 import org.apache.nifi.expression.ExpressionLanguageScope;
 import org.apache.nifi.flowfile.FlowFile;
+import org.apache.nifi.logging.ComponentLog;
 import org.apache.nifi.processor.*;
 import org.apache.nifi.processor.exception.ProcessException;
 import org.apache.nifi.processor.util.StandardValidators;
@@ -130,11 +131,11 @@ public class AerospikeListAppend extends AbstractProcessor {
             return;
         }
 
+        ComponentLog log = getLogger();
+
         final String aero_ns = context.getProperty(AEROSPIKE_NAMESPACE).evaluateAttributeExpressions(flowFile).getValue();
         final String aero_set = context.getProperty(AEROSPIKE_SET).evaluateAttributeExpressions(flowFile).getValue();
         final String aero_key = context.getProperty(AEROSPIKE_KEY).evaluateAttributeExpressions(flowFile).getValue();
-        //final String desiredMethod = context.getProperty(APPEND_OR_REMOVE).getValue();
-
         final AerospikeConnectionService aerospikeClient = context.getProperty(AEROSPIKE_SERVICE).asControllerService(AerospikeConnectionService.class);
 
         try {
@@ -144,10 +145,10 @@ public class AerospikeListAppend extends AbstractProcessor {
             final String flowFileContents = bytes.toString();
             final Value v = new Value.StringValue(flowFileContents);
             aerospikeClient.nifiAppend(fullKey, v);
+            session.transfer(flowFile, SUCCESS);
         } catch (Exception e) {
+            log.error(e.getMessage());
             session.transfer(flowFile, FAILURE);
         }
-
-        session.transfer(flowFile, SUCCESS);
     }
 }
