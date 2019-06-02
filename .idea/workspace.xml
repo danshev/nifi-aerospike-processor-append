@@ -5,41 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c22c4bae-ffd9-422b-b09a-4ca267bdf999" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_danshev_nifi_aerospike_connection_1_0_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_nifi_nifi_processor_utils_1_9_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nifi-listappend-nar/nifi-listappend-nar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-listappend-nar/nifi-listappend-nar.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nifi-listappend-nar/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-listappend-nar/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nifi-listappend-nar/target/classes/META-INF/DEPENDENCIES" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-listappend-nar/target/classes/META-INF/DEPENDENCIES" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nifi-listappend-nar/target/classes/META-INF/bundled-dependencies/bcpkix-jdk15on-1.60.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nifi-listappend-nar/target/classes/META-INF/bundled-dependencies/bcprov-jdk15on-1.60.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nifi-listappend-nar/target/classes/META-INF/bundled-dependencies/commons-codec-1.11.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nifi-listappend-nar/target/classes/META-INF/bundled-dependencies/commons-io-2.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nifi-listappend-nar/target/classes/META-INF/bundled-dependencies/commons-lang3-3.8.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nifi-listappend-nar/target/classes/META-INF/bundled-dependencies/jBCrypt-0.4.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nifi-listappend-nar/target/classes/META-INF/bundled-dependencies/jackson-annotations-2.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nifi-listappend-nar/target/classes/META-INF/bundled-dependencies/jackson-core-2.9.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nifi-listappend-nar/target/classes/META-INF/bundled-dependencies/jackson-databind-2.9.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nifi-listappend-nar/target/classes/META-INF/bundled-dependencies/nifi-aerospike-connection-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nifi-listappend-nar/target/classes/META-INF/bundled-dependencies/nifi-aerospike-connection-api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-listappend-nar/target/classes/META-INF/bundled-dependencies/nifi-aerospike-connection-api-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nifi-listappend-nar/target/classes/META-INF/bundled-dependencies/nifi-listappend-processors-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-listappend-nar/target/classes/META-INF/bundled-dependencies/nifi-listappend-processors-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nifi-listappend-nar/target/classes/META-INF/bundled-dependencies/nifi-processor-utils-1.9.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nifi-listappend-nar/target/classes/META-INF/bundled-dependencies/nifi-security-utils-1.9.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nifi-listappend-nar/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-listappend-nar/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nifi-listappend-nar/target/maven-shared-archive-resources/META-INF/DEPENDENCIES" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-listappend-nar/target/maven-shared-archive-resources/META-INF/DEPENDENCIES" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nifi-listappend-nar/target/nifi-listappend-nar-1.0-SNAPSHOT.nar" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-listappend-nar/target/nifi-listappend-nar-1.0-SNAPSHOT.nar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nifi-listappend-nar/target/test-classes/META-INF/DEPENDENCIES" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-listappend-nar/target/test-classes/META-INF/DEPENDENCIES" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nifi-listappend-processors/nifi-listappend-processors.iml" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-listappend-processors/nifi-listappend-processors.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nifi-listappend-processors/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-listappend-processors/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nifi-listappend-processors/src/main/java/com/danshev/processors/listappend/AerospikeListAppend.java" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-listappend-processors/src/main/java/com/danshev/processors/listappend/AerospikeListAppend.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nifi-listappend-processors/target/classes/META-INF/DEPENDENCIES" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-listappend-processors/target/classes/META-INF/DEPENDENCIES" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nifi-listappend-processors/target/maven-shared-archive-resources/META-INF/DEPENDENCIES" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-listappend-processors/target/maven-shared-archive-resources/META-INF/DEPENDENCIES" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nifi-listappend-processors/target/nifi-listappend-processors-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-listappend-processors/target/nifi-listappend-processors-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nifi-listappend-processors/target/surefire-reports/TEST-com.danshev.processors.listappend.ListAppendTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-listappend-processors/target/surefire-reports/TEST-com.danshev.processors.listappend.ListAppendTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nifi-listappend-processors/target/surefire-reports/com.danshev.processors.listappend.ListAppendTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-listappend-processors/target/surefire-reports/com.danshev.processors.listappend.ListAppendTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nifi-listappend-processors/target/test-classes/META-INF/DEPENDENCIES" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-listappend-processors/target/test-classes/META-INF/DEPENDENCIES" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/nifi-listappend-nar/target/" />
@@ -64,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nifi-listappend-processors/src/main/java/com/danshev/processors/listappend/AerospikeListAppend.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="137" column="117" selection-start-line="137" selection-start-column="117" selection-end-line="137" selection-end-column="117" />
+            <state relative-caret-position="409">
+              <caret line="157" column="32" lean-forward="true" selection-start-line="157" selection-start-column="32" selection-end-line="157" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -282,8 +248,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nifi-listappend-processors/src/main/java/com/danshev/processors/listappend/AerospikeListAppend.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="137" column="117" selection-start-line="137" selection-start-column="117" selection-end-line="137" selection-end-column="117" />
+        <state relative-caret-position="409">
+          <caret line="157" column="32" lean-forward="true" selection-start-line="157" selection-start-column="32" selection-end-line="157" selection-end-column="32" />
         </state>
       </provider>
     </entry>

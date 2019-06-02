@@ -39,7 +39,7 @@ import java.io.ByteArrayOutputStream;
 import java.util.*;
 
 @Tags({"aerospike append"})
-@CapabilityDescription("Performs a list append operation on the specified Aerospike namespace:set:key.")
+@CapabilityDescription("Performs a list append operation on the specified Aerospike namespace:set:key + bin.")
 @SeeAlso({})
 @ReadsAttributes({@ReadsAttribute(attribute="", description="")})
 @WritesAttributes({@WritesAttribute(attribute="", description="")})
@@ -80,6 +80,15 @@ public class AerospikeListAppend extends AbstractProcessor {
             .addValidator(StandardValidators.NON_EMPTY_VALIDATOR)
             .build();
 
+    public static final PropertyDescriptor AEROSPIKE_BIN = new PropertyDescriptor
+            .Builder().name("AEROSPIKE_BIN")
+            .displayName("Bin Name")
+            .description("The bin to which to append")
+            .expressionLanguageSupported(ExpressionLanguageScope.FLOWFILE_ATTRIBUTES)
+            .required(true)
+            .addValidator(StandardValidators.NON_EMPTY_VALIDATOR)
+            .build();
+
     public static final Relationship SUCCESS = new Relationship.Builder()
             .name("success")
             .description("Successful operations are transferred to this relationship")
@@ -101,6 +110,7 @@ public class AerospikeListAppend extends AbstractProcessor {
         descriptors.add(AEROSPIKE_NAMESPACE);
         descriptors.add(AEROSPIKE_SET);
         descriptors.add(AEROSPIKE_KEY);
+        descriptors.add(AEROSPIKE_BIN);
         this.descriptors = Collections.unmodifiableList(descriptors);
 
         final Set<Relationship> relationships = new HashSet<Relationship>();
@@ -136,6 +146,7 @@ public class AerospikeListAppend extends AbstractProcessor {
         final String aero_ns = context.getProperty(AEROSPIKE_NAMESPACE).evaluateAttributeExpressions(flowFile).getValue();
         final String aero_set = context.getProperty(AEROSPIKE_SET).evaluateAttributeExpressions(flowFile).getValue();
         final String aero_key = context.getProperty(AEROSPIKE_KEY).evaluateAttributeExpressions(flowFile).getValue();
+        final String aero_bin = context.getProperty(AEROSPIKE_BIN).evaluateAttributeExpressions(flowFile).getValue();
         final AerospikeConnectionService aerospikeClient = context.getProperty(AEROSPIKE_SERVICE).asControllerService(AerospikeConnectionService.class);
 
         try {
@@ -143,8 +154,8 @@ public class AerospikeListAppend extends AbstractProcessor {
             final ByteArrayOutputStream bytes = new ByteArrayOutputStream();
             session.exportTo(flowFile, bytes);
             final String flowFileContents = bytes.toString();
-            final Value v = new Value.StringValue(flowFileContents);
-            aerospikeClient.nifiAppend(fullKey, v);
+            final Value val = new Value.StringValue(flowFileContents);
+            aerospikeClient.nifiAppend(fullKey, aero_bin, val);
             session.transfer(flowFile, SUCCESS);
         } catch (Exception e) {
             log.error(e.getMessage());
